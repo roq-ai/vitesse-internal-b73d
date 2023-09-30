@@ -1,0 +1,2472 @@
+[
+  {
+    "job": [
+      {
+        "id": "e8810ba0-d55e-4a9a-b2f7-6fabfe2dc11f",
+        "title": "Software Engineer",
+        "description": "Developing software solutions",
+        "status": "Open",
+        "created_at": "2023-09-30T16:32:51.879Z",
+        "updated_at": "2023-09-30T09:08:38.907Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa6cf0d1-72ec-4c1f-b1b7-cba5a185f2f4",
+        "title": "Marketing Manager",
+        "description": "Creating marketing strategies",
+        "status": "Closed",
+        "created_at": "2023-09-30T11:15:39.078Z",
+        "updated_at": "2023-09-30T00:51:25.068Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b9b731d-7873-4a4c-b012-5d8dc63784c6",
+        "title": "Sales Representative",
+        "description": "Selling products and services",
+        "status": "Pending",
+        "created_at": "2023-09-29T21:15:15.659Z",
+        "updated_at": "2023-09-30T06:14:44.655Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "853cee3e-a50d-462e-b906-59fbfae11da6",
+        "title": "Financial Analyst",
+        "description": "Analyzing financial data",
+        "status": "Filled",
+        "created_at": "2023-09-30T14:03:29.535Z",
+        "updated_at": "2023-09-30T07:54:49.666Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cb253b7-179b-4a40-88a5-916bc0674c2c",
+        "title": "HR Coordinator",
+        "description": "Assisting with HR processes",
+        "status": "Cancelled",
+        "created_at": "2023-09-30T03:39:10.994Z",
+        "updated_at": "2023-09-30T11:24:26.824Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "be0f5b6b-9e65-41d6-9f1f-1892f54c8cd9",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "position": "Software Developer",
+        "status": "Active",
+        "created_at": "2023-09-30T11:46:10.019Z",
+        "updated_at": "2023-09-30T05:40:14.979Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb453c2a-7b3d-4f6e-ad81-7cb31a1b1618",
+        "first_name": "Daniel",
+        "last_name": "Williams",
+        "position": "Sales Associate",
+        "status": "Inactive",
+        "created_at": "2023-09-30T08:32:11.549Z",
+        "updated_at": "2023-09-30T09:32:02.720Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19aa972f-33f7-48cc-a803-d1a60705c75e",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "position": "Marketing Coordinator",
+        "status": "Pending",
+        "created_at": "2023-09-30T11:55:12.527Z",
+        "updated_at": "2023-09-29T19:14:46.165Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d3a3837-ce6b-445d-804a-95677f05dd67",
+        "first_name": "Matthew",
+        "last_name": "Brown",
+        "position": "Financial Advisor",
+        "status": "Hired",
+        "created_at": "2023-09-29T19:21:57.906Z",
+        "updated_at": "2023-09-29T20:31:45.856Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e25754e-5d67-4e56-9c01-4065d08c4a61",
+        "first_name": "Sophia",
+        "last_name": "Jones",
+        "position": "HR Assistant",
+        "status": "Rejected",
+        "created_at": "2023-09-30T03:08:55.981Z",
+        "updated_at": "2023-09-30T04:53:40.465Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "interview": [
+      {
+        "id": "110a4a95-32dc-4f8b-bd9a-8bcee1f00847",
+        "date": "2023-09-30T16:41:58.961Z",
+        "location": "New York",
+        "status": "Scheduled",
+        "created_at": "2023-09-30T15:12:09.900Z",
+        "updated_at": "2023-09-30T11:13:02.216Z",
+        "candidate_id": "7d3a3837-ce6b-445d-804a-95677f05dd67",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4eecf8d-6479-4963-a7d3-5eed0156e19e",
+        "date": "2023-09-30T13:32:05.914Z",
+        "location": "London",
+        "status": "Completed",
+        "created_at": "2023-09-30T06:56:08.165Z",
+        "updated_at": "2023-09-30T08:10:52.736Z",
+        "candidate_id": "19aa972f-33f7-48cc-a803-d1a60705c75e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "601e81b5-cee9-43b9-8996-da9859132337",
+        "date": "2023-09-30T17:04:36.442Z",
+        "location": "Tokyo",
+        "status": "Cancelled",
+        "created_at": "2023-09-30T16:44:31.036Z",
+        "updated_at": "2023-09-30T17:31:39.921Z",
+        "candidate_id": "eb453c2a-7b3d-4f6e-ad81-7cb31a1b1618",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ec15393-12cf-45c4-a03d-146703d7a8ef",
+        "date": "2023-09-30T16:13:20.047Z",
+        "location": "Sydney",
+        "status": "Pending",
+        "created_at": "2023-09-30T03:51:46.945Z",
+        "updated_at": "2023-09-30T05:30:47.427Z",
+        "candidate_id": "eb453c2a-7b3d-4f6e-ad81-7cb31a1b1618",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a67ba5e-1f74-4af3-8459-13ae919cbe1f",
+        "date": "2023-09-30T03:04:53.378Z",
+        "location": "Berlin",
+        "status": "Rescheduled",
+        "created_at": "2023-09-29T23:58:30.907Z",
+        "updated_at": "2023-09-30T10:39:05.787Z",
+        "candidate_id": "3e25754e-5d67-4e56-9c01-4065d08c4a61",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "afa43e77-7c37-4332-937d-bfbd2c1d8296",
+        "content": "Great candidate, highly skilled",
+        "rating": 43235,
+        "created_at": "2023-09-30T04:10:37.892Z",
+        "updated_at": "2023-09-30T15:07:47.742Z",
+        "interview_id": "601e81b5-cee9-43b9-8996-da9859132337",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bbbaa09-34a1-469d-b960-2fcf3168ed23",
+        "content": "Needs improvement in communication",
+        "rating": 59321,
+        "created_at": "2023-09-30T02:57:48.362Z",
+        "updated_at": "2023-09-30T16:21:04.700Z",
+        "interview_id": "110a4a95-32dc-4f8b-bd9a-8bcee1f00847",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc5c6e18-079b-4c82-8873-bf6c889727f5",
+        "content": "Impressive technical knowledge",
+        "rating": 66647,
+        "created_at": "2023-09-30T07:58:39.884Z",
+        "updated_at": "2023-09-30T10:25:57.929Z",
+        "interview_id": "601e81b5-cee9-43b9-8996-da9859132337",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51980df3-df54-4411-967f-2b3d0e1ec441",
+        "content": "Lacks experience in the industry",
+        "rating": 85143,
+        "created_at": "2023-09-30T05:56:14.529Z",
+        "updated_at": "2023-09-29T18:52:16.592Z",
+        "interview_id": "e4eecf8d-6479-4963-a7d3-5eed0156e19e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e698a43a-4fc3-4ab3-9210-484cab58ee10",
+        "content": "Excellent problem-solving skills",
+        "rating": 70698,
+        "created_at": "2023-09-29T20:54:39.064Z",
+        "updated_at": "2023-09-30T07:35:37.208Z",
+        "interview_id": "0ec15393-12cf-45c4-a03d-146703d7a8ef",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "08ebc037-929b-498b-8303-01ba2e706e69",
+        "email": "Cindy_Renner@roq.tech",
+        "firstName": "Rasheed",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/357.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9ad30efd-ad94-42f7-8e7c-8663c07c8eea",
+        "email": "Gilbert36@roq.tech",
+        "firstName": "Orland",
+        "lastName": "Metz-Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58396790",
+        "tenantId": null
+      },
+      {
+        "reference": "66b19296-f785-46a9-bc28-e9fafcf217a3",
+        "email": "Bryce_OHara77@roq.tech",
+        "firstName": "Layla",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83342729",
+        "tenantId": null
+      },
+      {
+        "reference": "9f8c7080-e54b-418e-a94e-25fa0e601c02",
+        "email": "Cleve.Schuppe@roq.tech",
+        "firstName": "Jessyca",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42153703",
+        "tenantId": null
+      },
+      {
+        "reference": "3de39ae6-2063-4b4b-b1eb-16ab251acf97",
+        "email": "Mariane.Walker@roq.tech",
+        "firstName": "Kaycee",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77769362",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "job": [
+      {
+        "id": "9444dd6c-fbe1-45b1-863a-7ab732a03d2d",
+        "title": "Software Engineer",
+        "description": "Developing web applications",
+        "status": "Open",
+        "created_at": "2023-09-29T18:55:42.891Z",
+        "updated_at": "2023-09-30T11:11:40.347Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f6cbdfd-8e27-4a7a-aefb-e0d45f34076a",
+        "title": "Marketing Manager",
+        "description": "Creating marketing campaigns",
+        "status": "Closed",
+        "created_at": "2023-09-30T14:52:47.704Z",
+        "updated_at": "2023-09-30T05:50:11.172Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e55097f2-982e-4b92-8f4c-8db554877c82",
+        "title": "Sales Representative",
+        "description": "Selling products to clients",
+        "status": "In Progress",
+        "created_at": "2023-09-30T09:27:43.297Z",
+        "updated_at": "2023-09-30T01:49:46.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b14e7704-ff4e-4d74-b66a-ad8fa7bb7211",
+        "title": "Product Manager",
+        "description": "Managing product roadmap",
+        "status": "On Hold",
+        "created_at": "2023-09-30T17:30:54.636Z",
+        "updated_at": "2023-09-30T17:39:33.352Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c71a2a9-f19d-4b0d-bfac-04a01740cefe",
+        "title": "Financial Analyst",
+        "description": "Analyzing financial data",
+        "status": "Cancelled",
+        "created_at": "2023-09-30T18:33:57.338Z",
+        "updated_at": "2023-09-30T10:36:59.522Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "173f54e1-db20-45c1-bbe1-886567cfb39c",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "position": "Software Developer",
+        "status": "New",
+        "created_at": "2023-09-30T02:56:33.551Z",
+        "updated_at": "2023-09-29T19:04:15.346Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02974a71-9563-43fa-86b5-21901c73e5b9",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "position": "Sales Associate",
+        "status": "In Review",
+        "created_at": "2023-09-29T21:19:00.525Z",
+        "updated_at": "2023-09-30T04:02:42.559Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc058817-7108-4cbe-b97c-67b5582d70e8",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "position": "Marketing Coordinator",
+        "status": "Interviewing",
+        "created_at": "2023-09-30T11:56:48.225Z",
+        "updated_at": "2023-09-30T15:47:51.278Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7b9c0cb-b581-4056-8ac4-388c5e89edbd",
+        "first_name": "James",
+        "last_name": "Taylor",
+        "position": "Product Specialist",
+        "status": "Offer Extended",
+        "created_at": "2023-09-30T00:27:08.796Z",
+        "updated_at": "2023-09-30T11:05:35.951Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31d33525-57be-4ab4-b964-42c76abeee6d",
+        "first_name": "Sophia",
+        "last_name": "Anderson",
+        "position": "Financial Advisor",
+        "status": "Hired",
+        "created_at": "2023-09-30T13:20:04.863Z",
+        "updated_at": "2023-09-30T12:10:44.429Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "interview": [
+      {
+        "id": "ca289570-4d7c-448f-83c9-e5a7fb34709a",
+        "date": "2023-09-30T17:02:05.809Z",
+        "location": "Office",
+        "status": "Scheduled",
+        "created_at": "2023-09-30T08:36:22.318Z",
+        "updated_at": "2023-09-30T02:50:57.595Z",
+        "candidate_id": "b7b9c0cb-b581-4056-8ac4-388c5e89edbd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44cebb8e-5178-416e-9194-e47ba52aaad6",
+        "date": "2023-09-30T18:21:28.657Z",
+        "location": "Online",
+        "status": "Completed",
+        "created_at": "2023-09-30T01:19:54.256Z",
+        "updated_at": "2023-09-30T05:32:57.010Z",
+        "candidate_id": "173f54e1-db20-45c1-bbe1-886567cfb39c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38405e03-c63a-4ed4-9a73-42499912f4de",
+        "date": "2023-09-30T16:07:15.597Z",
+        "location": "Phone",
+        "status": "Cancelled",
+        "created_at": "2023-09-30T17:01:59.535Z",
+        "updated_at": "2023-09-30T17:07:28.273Z",
+        "candidate_id": "173f54e1-db20-45c1-bbe1-886567cfb39c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2e2f6e2-40c6-4417-99a1-c637420fc4f0",
+        "date": "2023-09-30T05:09:12.150Z",
+        "location": "Video Conference",
+        "status": "Rescheduled",
+        "created_at": "2023-09-30T07:19:46.662Z",
+        "updated_at": "2023-09-30T02:46:36.277Z",
+        "candidate_id": "fc058817-7108-4cbe-b97c-67b5582d70e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7558b46-8014-48a5-b7b1-6ed7e242304f",
+        "date": "2023-09-29T21:01:14.697Z",
+        "location": "Client Site",
+        "status": "Pending",
+        "created_at": "2023-09-29T19:31:55.380Z",
+        "updated_at": "2023-09-30T04:31:22.361Z",
+        "candidate_id": "173f54e1-db20-45c1-bbe1-886567cfb39c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "5bd7086e-5dbc-426f-b6f2-919342ffcef2",
+        "content": "Great communication skills",
+        "rating": 77327,
+        "created_at": "2023-09-30T03:56:25.190Z",
+        "updated_at": "2023-09-30T07:53:01.989Z",
+        "interview_id": "38405e03-c63a-4ed4-9a73-42499912f4de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "280ba387-896a-43b4-8b9e-38e48a75a7f0",
+        "content": "Strong technical knowledge",
+        "rating": 97347,
+        "created_at": "2023-09-30T05:26:51.364Z",
+        "updated_at": "2023-09-30T09:46:50.518Z",
+        "interview_id": "44cebb8e-5178-416e-9194-e47ba52aaad6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "270cfa98-1a1f-485e-9d51-e54a9209f751",
+        "content": "Lacks experience in the industry",
+        "rating": 48101,
+        "created_at": "2023-09-30T10:16:17.086Z",
+        "updated_at": "2023-09-30T11:52:07.605Z",
+        "interview_id": "38405e03-c63a-4ed4-9a73-42499912f4de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a228bb4-f12b-41f0-92fa-7045b0f64e04",
+        "content": "Impressive problem-solving abilities",
+        "rating": 7290,
+        "created_at": "2023-09-30T14:24:45.919Z",
+        "updated_at": "2023-09-29T20:13:59.833Z",
+        "interview_id": "44cebb8e-5178-416e-9194-e47ba52aaad6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d08994d-3f15-4b19-9034-d915f9b91e2c",
+        "content": "Needs improvement in time management",
+        "rating": 91934,
+        "created_at": "2023-09-30T14:00:21.972Z",
+        "updated_at": "2023-09-30T12:24:08.247Z",
+        "interview_id": "d7558b46-8014-48a5-b7b1-6ed7e242304f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d9b7ffb1-e7ea-4326-90db-8bf240ad1175",
+        "email": "Lilly52@roq.tech",
+        "firstName": "Alexzander",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40629005",
+        "tenantId": null
+      },
+      {
+        "reference": "8a46476e-d59e-448e-bf8b-901fcca8e298",
+        "email": "Alexa.Windler4@roq.tech",
+        "firstName": "Sylvester",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/13.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60af50b1-5539-4b78-8495-3e74b8d103a0",
+        "email": "Thelma_Mraz@roq.tech",
+        "firstName": "Patience",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20945694",
+        "tenantId": null
+      },
+      {
+        "reference": "2ef5bc8e-6fc0-470e-a776-fa87c62feb91",
+        "email": "Margarita86@roq.tech",
+        "firstName": "Rahul",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/18.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f25944b5-5895-4cd5-9adc-3d839e258ccb",
+        "email": "Maximillia45@roq.tech",
+        "firstName": "Leilani",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/942.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "job": [
+      {
+        "id": "b43e420d-0fd3-494a-8a24-b53c205d480f",
+        "title": "Software Engineer",
+        "description": "Developing web applications",
+        "status": "Open",
+        "created_at": "2023-09-30T18:36:00.385Z",
+        "updated_at": "2023-09-30T10:41:31.317Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8982984-3e61-4a65-9860-8aba6b58ba17",
+        "title": "Marketing Manager",
+        "description": "Creating marketing campaigns",
+        "status": "Closed",
+        "created_at": "2023-09-30T03:11:45.867Z",
+        "updated_at": "2023-09-30T04:27:51.833Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35d3c4ab-30e0-4ee9-a71c-f50e5c2513a9",
+        "title": "Product Designer",
+        "description": "Designing user interfaces",
+        "status": "Pending",
+        "created_at": "2023-09-30T16:38:51.401Z",
+        "updated_at": "2023-09-30T15:10:18.567Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9981dcd3-2dc9-4991-8ce2-ac6d44261049",
+        "title": "Financial Analyst",
+        "description": "Analyzing financial data",
+        "status": "In Progress",
+        "created_at": "2023-09-30T00:51:19.602Z",
+        "updated_at": "2023-09-30T13:09:47.219Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6813978-833d-4c8a-91e2-131f798d3e6f",
+        "title": "HR Coordinator",
+        "description": "Assisting with HR tasks",
+        "status": "On Hold",
+        "created_at": "2023-09-30T00:58:36.228Z",
+        "updated_at": "2023-09-30T09:06:51.716Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "5a63cddc-d11f-4ced-8cc9-203df80b7fe4",
+        "first_name": "Alex",
+        "last_name": "Johnson",
+        "position": "Software Developer",
+        "status": "Active",
+        "created_at": "2023-09-29T22:51:45.881Z",
+        "updated_at": "2023-09-29T19:56:53.069Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88c0f494-9908-481a-b0f5-953a42fb33d9",
+        "first_name": "Emily",
+        "last_name": "Brown",
+        "position": "Marketing Specialist",
+        "status": "Inactive",
+        "created_at": "2023-09-29T21:52:27.956Z",
+        "updated_at": "2023-09-30T10:49:15.158Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee2e0cb3-af61-4255-828b-9fa158384ef4",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "position": "Product Manager",
+        "status": "Pending",
+        "created_at": "2023-09-30T08:54:28.737Z",
+        "updated_at": "2023-09-30T17:56:50.751Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93ed0d5c-fd3b-4148-9683-7d2d49fde8d6",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "position": "Financial Advisor",
+        "status": "Shortlisted",
+        "created_at": "2023-09-30T10:56:30.331Z",
+        "updated_at": "2023-09-30T13:29:02.526Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e4c062d-7c58-4f70-a9cf-3cca4b34e642",
+        "first_name": "Sophia",
+        "last_name": "Davis",
+        "position": "HR Assistant",
+        "status": "Rejected",
+        "created_at": "2023-09-29T22:27:10.575Z",
+        "updated_at": "2023-09-30T01:07:44.117Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "interview": [
+      {
+        "id": "04fcf22c-2fc6-4840-b98e-b0679e41711e",
+        "date": "2023-09-30T01:03:19.372Z",
+        "location": "New York",
+        "status": "Scheduled",
+        "created_at": "2023-09-30T09:39:51.612Z",
+        "updated_at": "2023-09-30T10:53:15.045Z",
+        "candidate_id": "ee2e0cb3-af61-4255-828b-9fa158384ef4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee16b074-986d-4a15-b8f7-ef327658b06a",
+        "date": "2023-09-30T12:42:42.624Z",
+        "location": "London",
+        "status": "Completed",
+        "created_at": "2023-09-29T20:58:09.285Z",
+        "updated_at": "2023-09-30T00:14:12.504Z",
+        "candidate_id": "5a63cddc-d11f-4ced-8cc9-203df80b7fe4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "938d60b9-11b1-4b56-8361-7b19f232828d",
+        "date": "2023-09-29T23:48:52.252Z",
+        "location": "Tokyo",
+        "status": "Cancelled",
+        "created_at": "2023-09-30T17:20:49.413Z",
+        "updated_at": "2023-09-30T09:44:05.032Z",
+        "candidate_id": "4e4c062d-7c58-4f70-a9cf-3cca4b34e642",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf401dd6-41e8-4609-a215-a9722ba0b44c",
+        "date": "2023-09-30T18:05:10.669Z",
+        "location": "Sydney",
+        "status": "Rescheduled",
+        "created_at": "2023-09-30T16:45:10.371Z",
+        "updated_at": "2023-09-30T03:01:56.824Z",
+        "candidate_id": "5a63cddc-d11f-4ced-8cc9-203df80b7fe4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acc0062a-fab3-4a5f-92aa-a16341512155",
+        "date": "2023-09-30T06:53:11.320Z",
+        "location": "Berlin",
+        "status": "Pending",
+        "created_at": "2023-09-30T14:15:18.484Z",
+        "updated_at": "2023-09-29T21:54:15.201Z",
+        "candidate_id": "4e4c062d-7c58-4f70-a9cf-3cca4b34e642",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "9680a74a-eb5f-44b9-b738-38adcbcca767",
+        "content": "Great candidate!",
+        "rating": 4154,
+        "created_at": "2023-09-29T21:03:15.669Z",
+        "updated_at": "2023-09-30T09:41:53.279Z",
+        "interview_id": "04fcf22c-2fc6-4840-b98e-b0679e41711e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e71c0119-e1ac-4cea-b7f3-5bae371dab1d",
+        "content": "Needs more experience",
+        "rating": 96413,
+        "created_at": "2023-09-30T18:20:55.121Z",
+        "updated_at": "2023-09-30T05:25:10.518Z",
+        "interview_id": "cf401dd6-41e8-4609-a215-a9722ba0b44c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b5e4b51-e4e9-4c15-bdd1-fd659f5e08b0",
+        "content": "Excellent communication skills",
+        "rating": 31845,
+        "created_at": "2023-09-30T04:50:11.688Z",
+        "updated_at": "2023-09-29T21:47:48.250Z",
+        "interview_id": "cf401dd6-41e8-4609-a215-a9722ba0b44c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e15bac9-541f-41a3-bd78-4b14d4fb831c",
+        "content": "Lacks technical knowledge",
+        "rating": 95750,
+        "created_at": "2023-09-30T07:34:22.827Z",
+        "updated_at": "2023-09-30T05:40:26.235Z",
+        "interview_id": "ee16b074-986d-4a15-b8f7-ef327658b06a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a599e98-d83a-4885-89a4-6e322d8fc93d",
+        "content": "Impressive presentation",
+        "rating": 57360,
+        "created_at": "2023-09-29T23:15:14.728Z",
+        "updated_at": "2023-09-30T14:49:57.735Z",
+        "interview_id": "ee16b074-986d-4a15-b8f7-ef327658b06a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a3806b67-9031-411b-b240-a07f79ac41fd",
+        "email": "Kraig_Conn17@roq.tech",
+        "firstName": "Collin",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84844551",
+        "tenantId": null
+      },
+      {
+        "reference": "fa67bdf4-6153-45fb-a538-c30b73368ca6",
+        "email": "Gina_Robel94@roq.tech",
+        "firstName": "Myra",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74701093",
+        "tenantId": null
+      },
+      {
+        "reference": "2df6b4c6-7da4-4373-b26a-73a5ed16631d",
+        "email": "Kyle69@roq.tech",
+        "firstName": "Aubree",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21256792",
+        "tenantId": null
+      },
+      {
+        "reference": "b1f5bf28-6a08-429c-ba4b-0c7316fea7ca",
+        "email": "Gwen.Tillman@roq.tech",
+        "firstName": "Milton",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50223972",
+        "tenantId": null
+      },
+      {
+        "reference": "2bd75b78-0a98-4d00-8c73-44a43c79692e",
+        "email": "Nicolas.Will@roq.tech",
+        "firstName": "Werner",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/185.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "job": [
+      {
+        "id": "bc97aeb4-4381-4fa9-be59-1c4df79b6328",
+        "title": "Software Engineer",
+        "description": "Seeking a skilled software engineer",
+        "status": "Open",
+        "created_at": "2023-09-30T17:56:20.002Z",
+        "updated_at": "2023-09-29T22:48:39.432Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b80b7ae-3e99-4116-977d-9a19236d3722",
+        "title": "Marketing Manager",
+        "description": "Looking for an experienced marketing manager",
+        "status": "Closed",
+        "created_at": "2023-09-30T04:45:24.897Z",
+        "updated_at": "2023-09-29T21:19:59.649Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cede796-4fc7-4d61-845d-af2d0bf99ddf",
+        "title": "Sales Representative",
+        "description": "Hiring sales representatives with strong communication skills",
+        "status": "Pending",
+        "created_at": "2023-09-30T11:46:08.063Z",
+        "updated_at": "2023-09-29T20:43:58.858Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42a2726c-dc2a-4606-8395-64b01ce74907",
+        "title": "UI/UX Designer",
+        "description": "Join our design team and create amazing user experiences",
+        "status": "Filled",
+        "created_at": "2023-09-29T23:58:25.538Z",
+        "updated_at": "2023-09-30T08:31:03.645Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53e7b2cc-c172-4109-a6a2-0584fd4c71c7",
+        "title": "Customer Support Specialist",
+        "description": "We need customer support specialists to assist our clients",
+        "status": "On Hold",
+        "created_at": "2023-09-30T09:31:28.695Z",
+        "updated_at": "2023-09-29T22:08:25.939Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "2ba13d2d-d849-403b-a7a5-2a93b6f45d39",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "position": "Software Developer",
+        "status": "Active",
+        "created_at": "2023-09-30T11:23:07.826Z",
+        "updated_at": "2023-09-30T03:40:02.351Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8ee56a2-9405-47a1-bbb9-821f2bd54d26",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "position": "Marketing Coordinator",
+        "status": "Inactive",
+        "created_at": "2023-09-29T21:22:09.798Z",
+        "updated_at": "2023-09-30T01:01:49.106Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aae2e83e-213a-472a-91d3-0c3a97b3eb9d",
+        "first_name": "Sophia",
+        "last_name": "Johnson",
+        "position": "Sales Associate",
+        "status": "Pending",
+        "created_at": "2023-09-30T09:41:34.128Z",
+        "updated_at": "2023-09-30T06:25:46.110Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72cfba50-7d2c-479d-b3b6-bfed00c3deab",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "position": "Graphic Designer",
+        "status": "Shortlisted",
+        "created_at": "2023-09-30T05:40:44.970Z",
+        "updated_at": "2023-09-30T18:28:37.399Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e741da0-4f7a-403c-b5a6-a82a1b008ad0",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "position": "Customer Service Representative",
+        "status": "Rejected",
+        "created_at": "2023-09-30T11:57:59.476Z",
+        "updated_at": "2023-09-30T10:08:52.889Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "interview": [
+      {
+        "id": "7d10eff9-3379-45f1-b44d-9f1a53c9fa56",
+        "date": "2023-09-29T23:51:20.450Z",
+        "location": "Office",
+        "status": "Scheduled",
+        "created_at": "2023-09-30T03:41:13.884Z",
+        "updated_at": "2023-09-30T02:38:42.898Z",
+        "candidate_id": "a8ee56a2-9405-47a1-bbb9-821f2bd54d26",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed781a4b-97e9-4d5e-8112-cfed62fb24e5",
+        "date": "2023-09-30T06:09:10.985Z",
+        "location": "Online",
+        "status": "Completed",
+        "created_at": "2023-09-30T00:06:02.229Z",
+        "updated_at": "2023-09-30T17:26:22.787Z",
+        "candidate_id": "2ba13d2d-d849-403b-a7a5-2a93b6f45d39",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c9ea263-0535-4db9-92bb-1ff3afaea8fc",
+        "date": "2023-09-30T14:22:13.370Z",
+        "location": "Phone",
+        "status": "Cancelled",
+        "created_at": "2023-09-29T22:28:36.726Z",
+        "updated_at": "2023-09-30T12:18:02.545Z",
+        "candidate_id": "aae2e83e-213a-472a-91d3-0c3a97b3eb9d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d8ff315-9580-4b27-85c2-fd11104c1395",
+        "date": "2023-09-29T20:21:39.799Z",
+        "location": "Video Conference",
+        "status": "Rescheduled",
+        "created_at": "2023-09-30T00:05:31.648Z",
+        "updated_at": "2023-09-30T09:39:10.185Z",
+        "candidate_id": "a8ee56a2-9405-47a1-bbb9-821f2bd54d26",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de893566-7d59-4bb3-b02c-06068202f173",
+        "date": "2023-09-30T09:10:25.806Z",
+        "location": "Client Site",
+        "status": "Pending",
+        "created_at": "2023-09-30T05:09:24.147Z",
+        "updated_at": "2023-09-30T11:47:51.911Z",
+        "candidate_id": "72cfba50-7d2c-479d-b3b6-bfed00c3deab",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "47f63ce2-032e-4504-9911-608bfdd320d6",
+        "content": "Great candidate, highly skilled",
+        "rating": 99655,
+        "created_at": "2023-09-30T02:09:42.354Z",
+        "updated_at": "2023-09-29T21:55:04.142Z",
+        "interview_id": "de893566-7d59-4bb3-b02c-06068202f173",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8cdb4b7-b475-4fa4-b1f2-0edbace6fe80",
+        "content": "Needs improvement in communication",
+        "rating": 3703,
+        "created_at": "2023-09-30T17:02:07.958Z",
+        "updated_at": "2023-09-29T23:26:47.779Z",
+        "interview_id": "7d10eff9-3379-45f1-b44d-9f1a53c9fa56",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aff8a23d-8dd4-42b2-918b-ab991d5b9b23",
+        "content": "Impressive portfolio, creative designs",
+        "rating": 66419,
+        "created_at": "2023-09-30T16:41:01.421Z",
+        "updated_at": "2023-09-29T19:19:38.727Z",
+        "interview_id": "de893566-7d59-4bb3-b02c-06068202f173",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32547839-3786-4d3f-a91c-bde17b171d1c",
+        "content": "Excellent problem-solving skills",
+        "rating": 48301,
+        "created_at": "2023-09-30T00:51:26.861Z",
+        "updated_at": "2023-09-30T05:03:51.896Z",
+        "interview_id": "2c9ea263-0535-4db9-92bb-1ff3afaea8fc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e52a3617-63eb-492e-90ff-acfc1bf5b158",
+        "content": "Lacks experience in the industry",
+        "rating": 70508,
+        "created_at": "2023-09-30T17:59:31.621Z",
+        "updated_at": "2023-09-30T01:16:45.860Z",
+        "interview_id": "6d8ff315-9580-4b27-85c2-fd11104c1395",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "13044ab3-fc28-47e8-a918-2e9ffa4c80e2",
+        "email": "Itzel78@roq.tech",
+        "firstName": "Cindy",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1108.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79488bf0-043c-48d3-a855-7fba80c6acd5",
+        "email": "Janiya.Morar13@roq.tech",
+        "firstName": "Precious",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91171961",
+        "tenantId": null
+      },
+      {
+        "reference": "5ff8d69c-907e-49a4-b19a-0cbe5a3ef109",
+        "email": "Terence_Swaniawski@roq.tech",
+        "firstName": "Elyssa",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/660.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d62fad1b-1aae-4bae-83fc-af419ce1236f",
+        "email": "Kenna29@roq.tech",
+        "firstName": "Ari",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51929829",
+        "tenantId": null
+      },
+      {
+        "reference": "3408bdf9-4115-40ac-b19f-37d6cad6a6ec",
+        "email": "Vicky17@roq.tech",
+        "firstName": "Bartholome",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/416.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "job": [
+      {
+        "id": "ed46d4ab-e144-4f1e-be36-2708d884cb81",
+        "title": "Software Engineer",
+        "description": "Join our team of talented engineers",
+        "status": "Open",
+        "created_at": "2023-09-30T16:59:50.570Z",
+        "updated_at": "2023-09-30T00:07:03.439Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e27b48d5-c0bd-49a3-8434-1f01628784a7",
+        "title": "Marketing Manager",
+        "description": "Lead the marketing campaigns",
+        "status": "Closed",
+        "created_at": "2023-09-29T21:34:02.106Z",
+        "updated_at": "2023-09-29T22:57:56.043Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c095263c-2a98-4c09-ae21-27281c01c361",
+        "title": "Sales Representative",
+        "description": "Drive sales growth",
+        "status": "In Progress",
+        "created_at": "2023-09-30T15:43:42.200Z",
+        "updated_at": "2023-09-29T19:52:21.636Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c41dd8d8-7257-46ca-9340-8d01c73d14b4",
+        "title": "Product Designer",
+        "description": "Design innovative products",
+        "status": "On Hold",
+        "created_at": "2023-09-30T03:09:38.777Z",
+        "updated_at": "2023-09-30T12:19:52.624Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87ff8526-7896-45a5-9e46-90525c9ffe16",
+        "title": "Finance Analyst",
+        "description": "Analyze financial data",
+        "status": "Pending",
+        "created_at": "2023-09-30T03:59:07.227Z",
+        "updated_at": "2023-09-30T00:34:35.264Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "fca97527-931a-49c1-8df7-d1e4870f8c6f",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "position": "Software Developer",
+        "status": "New",
+        "created_at": "2023-09-30T09:36:17.533Z",
+        "updated_at": "2023-09-30T16:14:24.713Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcb238b3-77b9-496f-a188-47292f2d5629",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "position": "Marketing Specialist",
+        "status": "In Review",
+        "created_at": "2023-09-30T08:43:00.804Z",
+        "updated_at": "2023-09-29T23:54:42.199Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6028346e-6d93-45b0-be98-44a58fb50d3e",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "position": "Sales Associate",
+        "status": "Interview Scheduled",
+        "created_at": "2023-09-30T05:19:19.147Z",
+        "updated_at": "2023-09-30T10:47:02.606Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "860ddc0b-b58f-4339-abb7-1428655062e8",
+        "first_name": "Matthew",
+        "last_name": "Brown",
+        "position": "Product Manager",
+        "status": "Rejected",
+        "created_at": "2023-09-30T07:12:47.825Z",
+        "updated_at": "2023-09-29T23:47:14.883Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb04503d-2942-4c40-9914-3484daf2d38d",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "position": "Financial Analyst",
+        "status": "Hired",
+        "created_at": "2023-09-30T13:30:14.398Z",
+        "updated_at": "2023-09-30T13:20:39.340Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "interview": [
+      {
+        "id": "4bb42f9f-ff54-4d25-adc2-fdae02292c46",
+        "date": "2023-09-30T05:15:19.161Z",
+        "location": "Office",
+        "status": "Scheduled",
+        "created_at": "2023-09-30T01:14:07.641Z",
+        "updated_at": "2023-09-30T05:15:35.621Z",
+        "candidate_id": "fca97527-931a-49c1-8df7-d1e4870f8c6f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6530644-4a8f-46ca-86c2-bf99a24f711a",
+        "date": "2023-09-30T04:52:42.646Z",
+        "location": "Online",
+        "status": "Completed",
+        "created_at": "2023-09-29T20:03:15.240Z",
+        "updated_at": "2023-09-30T18:38:58.986Z",
+        "candidate_id": "6028346e-6d93-45b0-be98-44a58fb50d3e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89e770b4-3edc-44d5-b11a-348da51bb608",
+        "date": "2023-09-30T08:48:32.260Z",
+        "location": "Phone",
+        "status": "Cancelled",
+        "created_at": "2023-09-30T13:55:32.851Z",
+        "updated_at": "2023-09-29T20:11:11.603Z",
+        "candidate_id": "fcb238b3-77b9-496f-a188-47292f2d5629",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8634c60-5055-4f76-b25e-ba3c83126bb6",
+        "date": "2023-09-29T22:03:26.310Z",
+        "location": "Video",
+        "status": "Rescheduled",
+        "created_at": "2023-09-30T03:49:13.273Z",
+        "updated_at": "2023-09-30T08:53:50.188Z",
+        "candidate_id": "bb04503d-2942-4c40-9914-3484daf2d38d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "084a32da-e2a0-40ca-bc8c-2d994bad9d82",
+        "date": "2023-09-30T00:13:16.547Z",
+        "location": "In-Person",
+        "status": "Pending",
+        "created_at": "2023-09-30T06:43:56.938Z",
+        "updated_at": "2023-09-30T11:34:46.529Z",
+        "candidate_id": "860ddc0b-b58f-4339-abb7-1428655062e8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "667112f4-2b1c-4a9b-a356-97b8b6b37eb5",
+        "content": "Great candidate, highly skilled",
+        "rating": 99243,
+        "created_at": "2023-09-30T04:27:04.341Z",
+        "updated_at": "2023-09-30T00:28:34.546Z",
+        "interview_id": "4bb42f9f-ff54-4d25-adc2-fdae02292c46",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c5b1d20-766b-4820-a6cc-9283d4c5368f",
+        "content": "Lacked communication skills",
+        "rating": 50175,
+        "created_at": "2023-09-30T07:26:48.692Z",
+        "updated_at": "2023-09-29T21:47:19.881Z",
+        "interview_id": "e8634c60-5055-4f76-b25e-ba3c83126bb6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96eb16ca-d6dc-4bb6-918e-2d697fe192ce",
+        "content": "Impressive portfolio",
+        "rating": 75661,
+        "created_at": "2023-09-30T06:47:12.489Z",
+        "updated_at": "2023-09-30T11:42:36.447Z",
+        "interview_id": "e8634c60-5055-4f76-b25e-ba3c83126bb6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ce07d10-34a8-492b-ada0-183b712c5d01",
+        "content": "Needs more experience",
+        "rating": 29926,
+        "created_at": "2023-09-30T07:01:36.798Z",
+        "updated_at": "2023-09-30T06:09:20.234Z",
+        "interview_id": "4bb42f9f-ff54-4d25-adc2-fdae02292c46",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efa4532a-0db4-4811-b68d-dbeb97d787df",
+        "content": "Excellent problem-solving abilities",
+        "rating": 32251,
+        "created_at": "2023-09-29T20:38:57.172Z",
+        "updated_at": "2023-09-30T03:36:44.532Z",
+        "interview_id": "084a32da-e2a0-40ca-bc8c-2d994bad9d82",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "88c211cc-e7dc-4243-88cb-9cefa9693fbc",
+        "email": "Madie.Renner66@roq.tech",
+        "firstName": "Marian",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56580062",
+        "tenantId": null
+      },
+      {
+        "reference": "58e0537a-1f7a-499c-aa61-031f8dbbb697",
+        "email": "Tina_Hudson6@roq.tech",
+        "firstName": "Melba",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7995772",
+        "tenantId": null
+      },
+      {
+        "reference": "ba88c950-b037-4763-89de-72fce5e27772",
+        "email": "Dominique.Yundt-Rowe@roq.tech",
+        "firstName": "Carolanne",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94187559",
+        "tenantId": null
+      },
+      {
+        "reference": "9970c36c-573c-43c6-860b-d5f2e92f9c8d",
+        "email": "Selmer_Jakubowski45@roq.tech",
+        "firstName": "Rickey",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28432432",
+        "tenantId": null
+      },
+      {
+        "reference": "dc9987a9-c8f7-4037-a300-ad06c9d0e952",
+        "email": "Lorenz_Brakus@roq.tech",
+        "firstName": "Emmitt",
+        "lastName": "Kunde-Herman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83888206",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "job": [
+      {
+        "id": "edc887d0-302f-41f4-8613-47a940856484",
+        "title": "Software Engineer",
+        "description": "We are looking for a skilled software engineer...",
+        "status": "Open",
+        "created_at": "2023-09-30T03:06:47.224Z",
+        "updated_at": "2023-09-30T05:22:36.334Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "882b4996-2e87-4b0a-ae0c-5c27c3cf5350",
+        "title": "Sales Manager",
+        "description": "We are seeking a highly motivated sales manager...",
+        "status": "Closed",
+        "created_at": "2023-09-29T21:56:21.447Z",
+        "updated_at": "2023-09-29T21:45:17.586Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40e1a4dd-2370-4898-a3dd-37d58033ec58",
+        "title": "Product Designer",
+        "description": "We are searching for a talented product designer...",
+        "status": "Pending",
+        "created_at": "2023-09-30T10:25:22.205Z",
+        "updated_at": "2023-09-30T05:38:12.587Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "495d697b-7a4d-41d5-8f28-eece3f987bb2",
+        "title": "Marketing Specialist",
+        "description": "We are hiring a marketing specialist to join our team...",
+        "status": "In Progress",
+        "created_at": "2023-09-30T02:13:27.713Z",
+        "updated_at": "2023-09-30T17:21:38.202Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4fddadf-a275-4b28-abc1-51ccab412a87",
+        "title": "Finance Analyst",
+        "description": "We are looking for a finance analyst to support our finance department...",
+        "status": "On Hold",
+        "created_at": "2023-09-30T02:35:51.518Z",
+        "updated_at": "2023-09-30T04:52:49.743Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "db3a1286-ced7-4014-9ac0-f4c63d2438ef",
+        "first_name": "Alex",
+        "last_name": "Johnson",
+        "position": "Software Developer",
+        "status": "New",
+        "created_at": "2023-09-30T04:52:57.740Z",
+        "updated_at": "2023-09-30T13:14:28.451Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59b6ca20-a8b1-4487-9801-8cd5297380ef",
+        "first_name": "Emily",
+        "last_name": "Brown",
+        "position": "Marketing Coordinator",
+        "status": "Interview Scheduled",
+        "created_at": "2023-09-30T10:13:10.957Z",
+        "updated_at": "2023-09-29T23:12:08.513Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42dd8343-041d-4dc5-b73a-912c8a77be5b",
+        "first_name": "Daniel",
+        "last_name": "Davis",
+        "position": "Sales Representative",
+        "status": "Under Review",
+        "created_at": "2023-09-30T13:02:07.435Z",
+        "updated_at": "2023-09-29T20:32:50.024Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1180cb96-6c24-4451-8ad9-94626b07b83a",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "position": "Product Manager",
+        "status": "Rejected",
+        "created_at": "2023-09-30T00:56:06.283Z",
+        "updated_at": "2023-09-30T06:38:27.242Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0f004f3-5cc3-4700-8f85-3f6438e3d474",
+        "first_name": "Matthew",
+        "last_name": "Miller",
+        "position": "Financial Analyst",
+        "status": "Hired",
+        "created_at": "2023-09-30T18:36:49.455Z",
+        "updated_at": "2023-09-30T01:19:10.588Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "interview": [
+      {
+        "id": "37651337-7ae1-48ea-9f68-7d6e094404b6",
+        "date": "2023-09-30T15:06:29.569Z",
+        "location": "Office",
+        "status": "Scheduled",
+        "created_at": "2023-09-29T21:51:26.961Z",
+        "updated_at": "2023-09-30T17:40:30.745Z",
+        "candidate_id": "42dd8343-041d-4dc5-b73a-912c8a77be5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "085da282-acd9-4703-af79-38f39d0046a0",
+        "date": "2023-09-30T09:44:06.574Z",
+        "location": "Zoom",
+        "status": "Completed",
+        "created_at": "2023-09-30T14:47:30.767Z",
+        "updated_at": "2023-09-29T20:10:28.312Z",
+        "candidate_id": "59b6ca20-a8b1-4487-9801-8cd5297380ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8e16a33-684b-4215-a86c-4774ea5cf2da",
+        "date": "2023-09-29T18:46:58.852Z",
+        "location": "Phone",
+        "status": "Cancelled",
+        "created_at": "2023-09-30T14:06:13.403Z",
+        "updated_at": "2023-09-29T22:59:36.558Z",
+        "candidate_id": "42dd8343-041d-4dc5-b73a-912c8a77be5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "307896d1-c4c5-40c0-aed3-7bc76acdf5bb",
+        "date": "2023-09-30T00:49:25.390Z",
+        "location": "Skype",
+        "status": "Rescheduled",
+        "created_at": "2023-09-30T03:57:01.014Z",
+        "updated_at": "2023-09-30T17:16:14.200Z",
+        "candidate_id": "db3a1286-ced7-4014-9ac0-f4c63d2438ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66aa03dc-e59c-4f1c-86b4-92ceff6c01dd",
+        "date": "2023-09-30T17:54:56.197Z",
+        "location": "Google Meet",
+        "status": "Pending",
+        "created_at": "2023-09-30T00:20:24.589Z",
+        "updated_at": "2023-09-30T11:41:40.941Z",
+        "candidate_id": "42dd8343-041d-4dc5-b73a-912c8a77be5b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "14c90fb2-424e-4846-b44b-10062daf39d8",
+        "content": "The candidate demonstrated strong technical skills...",
+        "rating": 35421,
+        "created_at": "2023-09-30T10:36:09.905Z",
+        "updated_at": "2023-09-30T16:19:45.912Z",
+        "interview_id": "307896d1-c4c5-40c0-aed3-7bc76acdf5bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1078ed47-14ef-48c5-9059-13af43d51d27",
+        "content": "The interview went well and the candidate seemed highly motivated...",
+        "rating": 1602,
+        "created_at": "2023-09-30T12:16:21.271Z",
+        "updated_at": "2023-09-30T06:16:54.893Z",
+        "interview_id": "085da282-acd9-4703-af79-38f39d0046a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2e9fe15-1377-4a3e-8fa5-cdf3dbf67025",
+        "content": "Unfortunately, the candidate lacked the necessary experience...",
+        "rating": 82301,
+        "created_at": "2023-09-29T21:52:50.858Z",
+        "updated_at": "2023-09-30T03:14:15.742Z",
+        "interview_id": "085da282-acd9-4703-af79-38f39d0046a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4804e17a-84a9-447a-b974-c38c5f2d7e5d",
+        "content": "The candidate's communication skills were excellent...",
+        "rating": 80308,
+        "created_at": "2023-09-30T16:43:17.585Z",
+        "updated_at": "2023-09-30T11:00:40.325Z",
+        "interview_id": "085da282-acd9-4703-af79-38f39d0046a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69f5fdfd-90a5-4ab3-9775-5e085cb071f9",
+        "content": "Overall, the candidate's performance was satisfactory...",
+        "rating": 8438,
+        "created_at": "2023-09-29T22:17:10.010Z",
+        "updated_at": "2023-09-29T22:38:59.290Z",
+        "interview_id": "307896d1-c4c5-40c0-aed3-7bc76acdf5bb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "523b8bc7-4f19-4a43-bcdd-4802174b3616",
+        "email": "Keenan_Hartmann@roq.tech",
+        "firstName": "Maeve",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/509.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10374669-5a82-4db6-9354-7d5bf7add34e",
+        "email": "Lorenzo34@roq.tech",
+        "firstName": "Halie",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20958157",
+        "tenantId": null
+      },
+      {
+        "reference": "35805b1e-ac08-43da-9963-5648868f3a13",
+        "email": "Larissa86@roq.tech",
+        "firstName": "Kacey",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34926320",
+        "tenantId": null
+      },
+      {
+        "reference": "0f8f75d1-ad86-4045-9d84-6ca172086a6a",
+        "email": "Saul.Bednar50@roq.tech",
+        "firstName": "Dandre",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1024.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5ce65d04-cc97-43c9-82c2-359cd0730efb",
+        "email": "Nedra3@roq.tech",
+        "firstName": "Garrett",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/602.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "job": [
+      {
+        "id": "e8ea69cb-8f73-4e23-b2be-5c27ffb680f3",
+        "title": "Software Engineer",
+        "description": "Develop software applications",
+        "status": "Open",
+        "created_at": "2023-09-30T10:00:27.008Z",
+        "updated_at": "2023-09-29T21:53:03.529Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03e178d6-160e-4854-893f-8b651f518356",
+        "title": "Marketing Manager",
+        "description": "Manage marketing campaigns",
+        "status": "Closed",
+        "created_at": "2023-09-30T13:46:21.536Z",
+        "updated_at": "2023-09-30T03:47:16.562Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b53f4c45-e94c-4895-ad88-2977fd5a3237",
+        "title": "Product Designer",
+        "description": "Design user interfaces",
+        "status": "In Progress",
+        "created_at": "2023-09-30T10:45:53.477Z",
+        "updated_at": "2023-09-30T15:04:50.337Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18554d3a-eab1-488e-a351-576747179d00",
+        "title": "Financial Analyst",
+        "description": "Analyze financial data",
+        "status": "On Hold",
+        "created_at": "2023-09-30T08:59:49.044Z",
+        "updated_at": "2023-09-30T04:56:11.971Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fab4b727-9dad-4596-9de8-4a378f1b4878",
+        "title": "HR Coordinator",
+        "description": "Coordinate HR activities",
+        "status": "Cancelled",
+        "created_at": "2023-09-30T07:31:37.752Z",
+        "updated_at": "2023-09-30T08:59:03.231Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "896099ea-955b-4326-8346-90536d1197ee",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "position": "Software Developer",
+        "status": "New",
+        "created_at": "2023-09-29T22:14:26.839Z",
+        "updated_at": "2023-09-30T14:30:46.089Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "590dbce6-c698-405e-960b-9b4ffa36d3c3",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "position": "Sales Representative",
+        "status": "In Review",
+        "created_at": "2023-09-30T16:30:06.469Z",
+        "updated_at": "2023-09-30T04:55:54.524Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b4d7d99-8104-4163-8095-f5ba5a839c2c",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "position": "Marketing Coordinator",
+        "status": "Interview Scheduled",
+        "created_at": "2023-09-30T12:56:37.413Z",
+        "updated_at": "2023-09-30T00:04:04.839Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c782e94-aa6c-46f9-b1ec-06b6a449576e",
+        "first_name": "Jacob",
+        "last_name": "Davis",
+        "position": "Financial Planner",
+        "status": "Offer Extended",
+        "created_at": "2023-09-29T20:31:19.263Z",
+        "updated_at": "2023-09-30T08:29:28.253Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4627bc57-973d-4136-abed-9eaf92b063ce",
+        "first_name": "Sophia",
+        "last_name": "Miller",
+        "position": "HR Assistant",
+        "status": "Rejected",
+        "created_at": "2023-09-29T21:55:48.132Z",
+        "updated_at": "2023-09-30T15:22:38.796Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "interview": [
+      {
+        "id": "ed690597-932e-41a1-857a-5d58ac05afd7",
+        "date": "2023-09-30T15:27:54.059Z",
+        "location": "Office",
+        "status": "Scheduled",
+        "created_at": "2023-09-30T17:36:40.843Z",
+        "updated_at": "2023-09-30T08:52:46.026Z",
+        "candidate_id": "4627bc57-973d-4136-abed-9eaf92b063ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42f11e00-6193-425c-9982-00187840390e",
+        "date": "2023-09-30T01:57:09.315Z",
+        "location": "Online",
+        "status": "Completed",
+        "created_at": "2023-09-29T21:26:47.008Z",
+        "updated_at": "2023-09-30T05:13:45.635Z",
+        "candidate_id": "1c782e94-aa6c-46f9-b1ec-06b6a449576e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73c82e9c-9efa-4705-b317-9ddcb3a0d38b",
+        "date": "2023-09-30T01:11:51.310Z",
+        "location": "Phone",
+        "status": "Cancelled",
+        "created_at": "2023-09-30T01:02:44.493Z",
+        "updated_at": "2023-09-30T08:55:22.938Z",
+        "candidate_id": "590dbce6-c698-405e-960b-9b4ffa36d3c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f53ecff6-d680-4083-83f2-f5d2f5f9496f",
+        "date": "2023-09-29T21:08:32.442Z",
+        "location": "Client Site",
+        "status": "Rescheduled",
+        "created_at": "2023-09-29T23:44:07.248Z",
+        "updated_at": "2023-09-30T17:04:14.727Z",
+        "candidate_id": "590dbce6-c698-405e-960b-9b4ffa36d3c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52f51def-aebe-4de1-965a-456b5100ab72",
+        "date": "2023-09-29T18:44:02.568Z",
+        "location": "Conference Room",
+        "status": "Pending",
+        "created_at": "2023-09-30T05:42:10.321Z",
+        "updated_at": "2023-09-30T04:22:20.976Z",
+        "candidate_id": "1c782e94-aa6c-46f9-b1ec-06b6a449576e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "22df4768-7649-437b-997b-268c6774d899",
+        "content": "Great candidate, excellent skills!",
+        "rating": 24590,
+        "created_at": "2023-09-29T21:40:41.519Z",
+        "updated_at": "2023-09-30T06:57:56.359Z",
+        "interview_id": "73c82e9c-9efa-4705-b317-9ddcb3a0d38b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9849b6d9-e2a6-4fa3-b947-360132dd7422",
+        "content": "Needs more experience in the field",
+        "rating": 80102,
+        "created_at": "2023-09-30T15:13:40.851Z",
+        "updated_at": "2023-09-30T11:35:51.403Z",
+        "interview_id": "ed690597-932e-41a1-857a-5d58ac05afd7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf5b4292-f988-4aed-b92f-0e957d3f140a",
+        "content": "Good communication skills, but lacks technical knowledge",
+        "rating": 82522,
+        "created_at": "2023-09-30T16:41:13.165Z",
+        "updated_at": "2023-09-29T19:00:05.470Z",
+        "interview_id": "ed690597-932e-41a1-857a-5d58ac05afd7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89b58fee-313f-465c-bf1b-e742ecea3525",
+        "content": "Impressive resume, highly recommended",
+        "rating": 47081,
+        "created_at": "2023-09-30T13:02:39.228Z",
+        "updated_at": "2023-09-29T18:52:46.691Z",
+        "interview_id": "52f51def-aebe-4de1-965a-456b5100ab72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfd2c4c5-525f-4b0b-9fc1-03364f5eb2c9",
+        "content": "Not a good fit for the position",
+        "rating": 34174,
+        "created_at": "2023-09-30T09:18:26.187Z",
+        "updated_at": "2023-09-30T17:51:23.428Z",
+        "interview_id": "52f51def-aebe-4de1-965a-456b5100ab72",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f3f4b91f-d852-4eae-b968-47711d901ed7",
+        "email": "Daren11@roq.tech",
+        "firstName": "Judson",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7256368",
+        "tenantId": null
+      },
+      {
+        "reference": "d37acd50-fb55-49be-b056-72f999249890",
+        "email": "Kyle75@roq.tech",
+        "firstName": "Callie",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54447004",
+        "tenantId": null
+      },
+      {
+        "reference": "65e43dd8-4398-4eb9-a7dc-bdbefd738f59",
+        "email": "Alisa21@roq.tech",
+        "firstName": "Yazmin",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89855674",
+        "tenantId": null
+      },
+      {
+        "reference": "e252e3a5-6ae7-4654-9e11-e172fa453568",
+        "email": "Vallie_Wilkinson16@roq.tech",
+        "firstName": "Prudence",
+        "lastName": "Reichel-Satterfield",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67486433",
+        "tenantId": null
+      },
+      {
+        "reference": "9f8ac1b1-87d4-4c5b-b840-b673f804df15",
+        "email": "Khalid24@roq.tech",
+        "firstName": "Ahmed",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42356854",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "job": [
+      {
+        "id": "8d2b2a73-1df6-41e8-a6b6-866f31d04d4e",
+        "title": "Software Engineer",
+        "description": "Responsible for developing software applications",
+        "status": "Open",
+        "created_at": "2023-09-30T03:04:28.996Z",
+        "updated_at": "2023-09-30T16:34:47.619Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98b0268e-3305-4278-9af6-66ee6777bc30",
+        "title": "Marketing Manager",
+        "description": "Responsible for creating marketing campaigns",
+        "status": "Closed",
+        "created_at": "2023-09-29T19:06:12.014Z",
+        "updated_at": "2023-09-30T14:10:24.814Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0b297c1-2c3d-4791-82c8-3234b7a656dc",
+        "title": "Sales Representative",
+        "description": "Responsible for selling products and services",
+        "status": "Pending",
+        "created_at": "2023-09-30T13:13:34.966Z",
+        "updated_at": "2023-09-29T23:38:39.820Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce4093e6-c675-4747-9a81-efad1e435b2a",
+        "title": "Financial Analyst",
+        "description": "Responsible for analyzing financial data",
+        "status": "Filled",
+        "created_at": "2023-09-30T09:57:52.981Z",
+        "updated_at": "2023-09-30T16:37:34.165Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20c86b9e-ac8b-48ca-bdcf-52067fd1b9e2",
+        "title": "HR Coordinator",
+        "description": "Responsible for coordinating HR activities",
+        "status": "Cancelled",
+        "created_at": "2023-09-29T20:52:19.931Z",
+        "updated_at": "2023-09-30T02:46:56.690Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "8487d022-339d-4084-bbf2-8a3d0b96bd5e",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "position": "Software Engineer",
+        "status": "Active",
+        "created_at": "2023-09-29T22:40:04.458Z",
+        "updated_at": "2023-09-30T18:36:47.838Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0d38092-e560-4775-829e-861d3dbdd4cc",
+        "first_name": "David",
+        "last_name": "Brown",
+        "position": "Marketing Specialist",
+        "status": "Inactive",
+        "created_at": "2023-09-30T15:05:09.030Z",
+        "updated_at": "2023-09-29T20:55:34.630Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94d74cbb-fa4d-4e2b-904b-2016a108aa67",
+        "first_name": "Sophia",
+        "last_name": "Clark",
+        "position": "Sales Associate",
+        "status": "Pending",
+        "created_at": "2023-09-30T12:14:42.647Z",
+        "updated_at": "2023-09-30T04:55:36.599Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e634dfd-bb38-4d60-b92d-cd711c0accd6",
+        "first_name": "Daniel",
+        "last_name": "Davis",
+        "position": "Financial Analyst",
+        "status": "Hired",
+        "created_at": "2023-09-30T02:18:10.642Z",
+        "updated_at": "2023-09-30T14:02:07.495Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f2ac0a8-9501-47ca-9173-e54c9ea3284b",
+        "first_name": "Olivia",
+        "last_name": "Evans",
+        "position": "HR Assistant",
+        "status": "Rejected",
+        "created_at": "2023-09-29T19:48:13.922Z",
+        "updated_at": "2023-09-29T23:23:19.776Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "interview": [
+      {
+        "id": "6a2de2b0-8e0a-4c51-a7bc-42309311816c",
+        "date": "2023-09-30T15:37:30.217Z",
+        "location": "New York",
+        "status": "Scheduled",
+        "created_at": "2023-09-30T13:51:24.272Z",
+        "updated_at": "2023-09-30T11:30:10.637Z",
+        "candidate_id": "c0d38092-e560-4775-829e-861d3dbdd4cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bbf317d-a4c7-42ce-8bdb-1845190e64c9",
+        "date": "2023-09-30T09:04:56.281Z",
+        "location": "London",
+        "status": "Completed",
+        "created_at": "2023-09-30T09:00:19.153Z",
+        "updated_at": "2023-09-30T12:12:58.295Z",
+        "candidate_id": "5e634dfd-bb38-4d60-b92d-cd711c0accd6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c75967f-247c-4b96-9e59-78936ec04ed6",
+        "date": "2023-09-29T20:50:47.056Z",
+        "location": "Tokyo",
+        "status": "Cancelled",
+        "created_at": "2023-09-29T19:19:30.079Z",
+        "updated_at": "2023-09-30T08:59:35.767Z",
+        "candidate_id": "c0d38092-e560-4775-829e-861d3dbdd4cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fddf49b-b67a-4286-8688-61c60c6b2b48",
+        "date": "2023-09-29T23:22:37.993Z",
+        "location": "Paris",
+        "status": "Pending",
+        "created_at": "2023-09-30T06:28:44.493Z",
+        "updated_at": "2023-09-30T13:56:45.597Z",
+        "candidate_id": "c0d38092-e560-4775-829e-861d3dbdd4cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1506d0ea-ecd5-4763-9228-3043ba37a778",
+        "date": "2023-09-29T19:26:31.167Z",
+        "location": "Berlin",
+        "status": "Rescheduled",
+        "created_at": "2023-09-30T07:24:44.495Z",
+        "updated_at": "2023-09-30T17:08:02.651Z",
+        "candidate_id": "8487d022-339d-4084-bbf2-8a3d0b96bd5e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "baef4f40-33d2-4561-9a08-46269a36cb1a",
+        "content": "The candidate demonstrated strong technical skills",
+        "rating": 8251,
+        "created_at": "2023-09-29T22:23:05.378Z",
+        "updated_at": "2023-09-29T18:47:56.672Z",
+        "interview_id": "6a2de2b0-8e0a-4c51-a7bc-42309311816c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26e9dca8-a4ff-4c40-9ce1-026633cfbfb3",
+        "content": "The candidate had excellent communication skills",
+        "rating": 9016,
+        "created_at": "2023-09-30T08:18:58.712Z",
+        "updated_at": "2023-09-30T04:45:41.178Z",
+        "interview_id": "7bbf317d-a4c7-42ce-8bdb-1845190e64c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a2815f8-32b0-46cb-96cc-850b340d7c50",
+        "content": "The candidate lacked experience in the required field",
+        "rating": 11361,
+        "created_at": "2023-09-29T21:37:34.919Z",
+        "updated_at": "2023-09-30T16:50:52.585Z",
+        "interview_id": "6fddf49b-b67a-4286-8688-61c60c6b2b48",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f9dd564-00b9-4821-a27f-098f1db80a64",
+        "content": "The candidate showed great enthusiasm",
+        "rating": 95990,
+        "created_at": "2023-09-30T04:37:12.976Z",
+        "updated_at": "2023-09-29T21:42:42.057Z",
+        "interview_id": "7bbf317d-a4c7-42ce-8bdb-1845190e64c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f7f4049-94d8-487c-8a9a-7613b9081382",
+        "content": "The candidate was well-prepared for the interview",
+        "rating": 51865,
+        "created_at": "2023-09-30T01:37:19.987Z",
+        "updated_at": "2023-09-30T14:17:29.064Z",
+        "interview_id": "7c75967f-247c-4b96-9e59-78936ec04ed6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d4025c3d-f614-4b5c-b74b-025eab3107ad",
+        "email": "Samson50@roq.tech",
+        "firstName": "Elenor",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89138213",
+        "tenantId": null
+      },
+      {
+        "reference": "e07483eb-c505-4fca-958d-90e327a29d0b",
+        "email": "Maia_Von21@roq.tech",
+        "firstName": "Avery",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58854312",
+        "tenantId": null
+      },
+      {
+        "reference": "04788fe8-6d44-46d7-ace9-1aa181fdbddc",
+        "email": "Fatima92@roq.tech",
+        "firstName": "Alexie",
+        "lastName": "Fritsch-Ratke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/190.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b0399d14-c2eb-4329-a15d-dd88158e19d3",
+        "email": "Eladio57@roq.tech",
+        "firstName": "Liana",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1209.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ced50175-f18a-418b-96f1-3351f4552275",
+        "email": "Magdalen.Lebsack46@roq.tech",
+        "firstName": "Karelle",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73447454",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "job": [
+      {
+        "id": "488d77c3-b287-4831-b405-d207b0d6cd15",
+        "title": "Software Engineer",
+        "description": "Responsible for developing and maintaining software applications",
+        "status": "Open",
+        "created_at": "2023-09-30T04:46:16.998Z",
+        "updated_at": "2023-09-30T17:13:02.668Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0c75c51-650e-4bc0-b809-7b5109653f87",
+        "title": "Sales Manager",
+        "description": "Leading a team of sales representatives to achieve targets",
+        "status": "Closed",
+        "created_at": "2023-09-30T12:09:50.977Z",
+        "updated_at": "2023-09-30T15:08:05.828Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f0ef1b6-0c09-4954-a8fb-1dc9f97cc1d6",
+        "title": "Marketing Specialist",
+        "description": "Creating and implementing marketing strategies",
+        "status": "Pending",
+        "created_at": "2023-09-30T11:42:48.782Z",
+        "updated_at": "2023-09-30T16:35:24.436Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f46436b5-c378-49e7-be07-4c7f970b0513",
+        "title": "Customer Support Representative",
+        "description": "Providing assistance and resolving customer issues",
+        "status": "In Progress",
+        "created_at": "2023-09-30T01:40:19.774Z",
+        "updated_at": "2023-09-30T10:00:45.570Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a9cc239-da51-4869-bf78-b82d3dc3c371",
+        "title": "Financial Analyst",
+        "description": "Analyzing financial data and preparing reports",
+        "status": "On Hold",
+        "created_at": "2023-09-30T18:05:21.426Z",
+        "updated_at": "2023-09-29T21:05:32.319Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "efc2cbe8-b3ac-4d73-9e94-c22a445d659a",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "position": "Software Developer",
+        "status": "Active",
+        "created_at": "2023-09-29T23:03:11.170Z",
+        "updated_at": "2023-09-30T07:35:17.041Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36d255fe-a75d-4329-9d4b-edbb89701cb2",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "position": "Sales Associate",
+        "status": "Inactive",
+        "created_at": "2023-09-30T04:14:10.112Z",
+        "updated_at": "2023-09-30T10:48:26.270Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63a1c9dd-e919-4f8c-8b26-1cc762743529",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "position": "Marketing Coordinator",
+        "status": "Shortlisted",
+        "created_at": "2023-09-30T14:05:46.797Z",
+        "updated_at": "2023-09-30T13:31:12.603Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d15d577-701b-4b27-a84b-043492b37af4",
+        "first_name": "Matthew",
+        "last_name": "Brown",
+        "position": "Customer Service Representative",
+        "status": "Rejected",
+        "created_at": "2023-09-29T20:58:54.378Z",
+        "updated_at": "2023-09-30T01:58:49.801Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbb9aa80-5d4d-4ce4-873d-33e942f25e76",
+        "first_name": "Sophia",
+        "last_name": "Jones",
+        "position": "Financial Advisor",
+        "status": "On Hold",
+        "created_at": "2023-09-30T16:10:36.182Z",
+        "updated_at": "2023-09-30T12:11:34.723Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "interview": [
+      {
+        "id": "44c9ef17-66ee-4cd6-83af-d45463ec8e2d",
+        "date": "2023-09-30T14:42:26.480Z",
+        "location": "Office",
+        "status": "Scheduled",
+        "created_at": "2023-09-30T09:34:20.850Z",
+        "updated_at": "2023-09-30T14:39:39.314Z",
+        "candidate_id": "0d15d577-701b-4b27-a84b-043492b37af4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "922033f4-18ee-4724-855f-3e6c5cb90530",
+        "date": "2023-09-29T19:00:06.205Z",
+        "location": "Online",
+        "status": "Completed",
+        "created_at": "2023-09-30T05:29:54.215Z",
+        "updated_at": "2023-09-30T09:38:10.729Z",
+        "candidate_id": "efc2cbe8-b3ac-4d73-9e94-c22a445d659a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fcd46b6-c311-4293-b3ec-3781d786fe24",
+        "date": "2023-09-30T11:55:41.149Z",
+        "location": "Phone",
+        "status": "Cancelled",
+        "created_at": "2023-09-30T15:33:35.870Z",
+        "updated_at": "2023-09-29T21:42:24.238Z",
+        "candidate_id": "fbb9aa80-5d4d-4ce4-873d-33e942f25e76",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a6c2dee-d4a6-4cd2-997b-adf202a1394b",
+        "date": "2023-09-30T01:41:17.844Z",
+        "location": "Video Conference",
+        "status": "Rescheduled",
+        "created_at": "2023-09-30T16:57:26.501Z",
+        "updated_at": "2023-09-29T22:13:51.200Z",
+        "candidate_id": "0d15d577-701b-4b27-a84b-043492b37af4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f38194a-cf82-4b1f-a80c-6f91c59bf1be",
+        "date": "2023-09-30T11:08:06.537Z",
+        "location": "Client's premises",
+        "status": "Pending",
+        "created_at": "2023-09-30T09:03:40.664Z",
+        "updated_at": "2023-09-30T04:11:00.624Z",
+        "candidate_id": "fbb9aa80-5d4d-4ce4-873d-33e942f25e76",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "bc984e66-fe68-404e-a551-2938777d2f7a",
+        "content": "Great communication skills",
+        "rating": 4835,
+        "created_at": "2023-09-29T20:10:19.065Z",
+        "updated_at": "2023-09-30T05:44:07.428Z",
+        "interview_id": "6f38194a-cf82-4b1f-a80c-6f91c59bf1be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8d63e3c-807d-4e0a-9f16-c5844f2b6043",
+        "content": "Lacks technical knowledge",
+        "rating": 18371,
+        "created_at": "2023-09-30T01:46:09.883Z",
+        "updated_at": "2023-09-29T20:19:25.996Z",
+        "interview_id": "6f38194a-cf82-4b1f-a80c-6f91c59bf1be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39c16a85-e75e-4b85-89ee-7594570a02de",
+        "content": "Impressive problem-solving abilities",
+        "rating": 7764,
+        "created_at": "2023-09-30T05:40:32.248Z",
+        "updated_at": "2023-09-30T13:11:02.540Z",
+        "interview_id": "4a6c2dee-d4a6-4cd2-997b-adf202a1394b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6955c717-1350-4642-9b59-bc29a0d1120a",
+        "content": "Needs improvement in time management",
+        "rating": 97118,
+        "created_at": "2023-09-29T23:52:16.966Z",
+        "updated_at": "2023-09-30T04:43:03.089Z",
+        "interview_id": "6f38194a-cf82-4b1f-a80c-6f91c59bf1be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95eb9527-adc3-4953-8a15-fd09c0645357",
+        "content": "Excellent attention to detail",
+        "rating": 20054,
+        "created_at": "2023-09-30T18:03:06.997Z",
+        "updated_at": "2023-09-29T22:46:46.614Z",
+        "interview_id": "6f38194a-cf82-4b1f-a80c-6f91c59bf1be",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "623d4294-ea7c-4eb3-85bd-17b5170fc014",
+        "email": "Madonna_Wilkinson@roq.tech",
+        "firstName": "Clifford",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99971952",
+        "tenantId": null
+      },
+      {
+        "reference": "ef7119ae-d922-4b1f-b029-d78f496823ec",
+        "email": "Alec.Hettinger17@roq.tech",
+        "firstName": "Danika",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1166.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "63609d61-fd78-4045-8068-090e0fe9894b",
+        "email": "Jeanne.Deckow61@roq.tech",
+        "firstName": "Brendan",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99699030",
+        "tenantId": null
+      },
+      {
+        "reference": "7b8a2391-bf4b-4161-8011-818534c4001d",
+        "email": "Dario36@roq.tech",
+        "firstName": "Janae",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14019240",
+        "tenantId": null
+      },
+      {
+        "reference": "245c90d4-f87c-4b07-aa38-da8252ae7d49",
+        "email": "Ima_Tillman@roq.tech",
+        "firstName": "Russell",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50063013",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "job": [
+      {
+        "id": "b160a883-fa5d-4c85-994d-3e08f1840cf4",
+        "title": "Software Engineer",
+        "description": "Seeking a skilled software engineer with experience in Java",
+        "status": "Open",
+        "created_at": "2023-09-30T03:21:11.589Z",
+        "updated_at": "2023-09-29T21:57:20.117Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66e7ded5-77e6-41c2-8084-2348e3fa0188",
+        "title": "Marketing Manager",
+        "description": "Looking for a marketing manager with strong analytical skills",
+        "status": "Closed",
+        "created_at": "2023-09-30T00:31:25.469Z",
+        "updated_at": "2023-09-30T03:45:05.941Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d60ea81-3228-4db5-b849-76967f55036f",
+        "title": "Sales Representative",
+        "description": "Hiring sales representatives to expand our customer base",
+        "status": "In Progress",
+        "created_at": "2023-09-29T20:19:28.340Z",
+        "updated_at": "2023-09-29T19:22:53.047Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cf255b3-15a8-4c71-bf7f-2703dbd03fdd",
+        "title": "Product Designer",
+        "description": "Join our team as a product designer and create innovative designs",
+        "status": "On Hold",
+        "created_at": "2023-09-30T04:20:11.226Z",
+        "updated_at": "2023-09-30T03:07:56.316Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c77a2ab-a95b-4b93-b647-302a783dea71",
+        "title": "Finance Analyst",
+        "description": "Finance analyst position available for candidates with strong financial analysis skills",
+        "status": "Pending",
+        "created_at": "2023-09-30T13:42:19.639Z",
+        "updated_at": "2023-09-30T08:07:44.848Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "6d8ce361-6754-49aa-87d7-1c038ccf275c",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "position": "Software Engineer",
+        "status": "Applied",
+        "created_at": "2023-09-30T06:32:15.968Z",
+        "updated_at": "2023-09-30T17:29:05.885Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c574988-4c09-4d9e-bff8-5e81d945bff4",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "position": "Marketing Manager",
+        "status": "In Review",
+        "created_at": "2023-09-30T09:20:58.652Z",
+        "updated_at": "2023-09-30T08:50:54.808Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82ba00b2-fcea-48c4-87e8-fd67e20275db",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "position": "Sales Representative",
+        "status": "Shortlisted",
+        "created_at": "2023-09-30T00:44:17.735Z",
+        "updated_at": "2023-09-30T06:22:26.233Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1237e48a-230e-4ed6-a23e-4d4d0e953da3",
+        "first_name": "Matthew",
+        "last_name": "Brown",
+        "position": "Product Designer",
+        "status": "Interview Scheduled",
+        "created_at": "2023-09-30T11:52:48.421Z",
+        "updated_at": "2023-09-30T05:16:06.075Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fb72f29-cd91-4c35-89e8-efe9d4b53c1d",
+        "first_name": "Sophia",
+        "last_name": "Jones",
+        "position": "Finance Analyst",
+        "status": "Offer Extended",
+        "created_at": "2023-09-30T13:33:52.399Z",
+        "updated_at": "2023-09-30T06:42:11.425Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "interview": [
+      {
+        "id": "93895e39-955a-4fe5-b26d-6e47f21f6214",
+        "date": "2023-09-30T00:11:18.432Z",
+        "location": "New York",
+        "status": "Scheduled",
+        "created_at": "2023-09-30T12:03:42.926Z",
+        "updated_at": "2023-09-30T10:42:20.946Z",
+        "candidate_id": "5fb72f29-cd91-4c35-89e8-efe9d4b53c1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3fc1d01-10a3-4baa-a46c-d8ddd736f194",
+        "date": "2023-09-29T23:24:46.783Z",
+        "location": "San Francisco",
+        "status": "Completed",
+        "created_at": "2023-09-30T18:25:12.781Z",
+        "updated_at": "2023-09-29T23:35:15.506Z",
+        "candidate_id": "5fb72f29-cd91-4c35-89e8-efe9d4b53c1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3223fdcb-3ab7-4c03-aece-5d17288b3b5c",
+        "date": "2023-09-30T10:32:18.110Z",
+        "location": "London",
+        "status": "Cancelled",
+        "created_at": "2023-09-30T00:26:53.525Z",
+        "updated_at": "2023-09-30T10:54:29.326Z",
+        "candidate_id": "1237e48a-230e-4ed6-a23e-4d4d0e953da3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e630466b-2e2a-4d05-991c-031715af9ca3",
+        "date": "2023-09-30T09:03:11.770Z",
+        "location": "Tokyo",
+        "status": "Rescheduled",
+        "created_at": "2023-09-30T06:17:51.031Z",
+        "updated_at": "2023-09-30T05:38:53.681Z",
+        "candidate_id": "5fb72f29-cd91-4c35-89e8-efe9d4b53c1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b5b1e2d-198f-4aef-b326-d1b3cab1c1b5",
+        "date": "2023-09-30T16:54:42.262Z",
+        "location": "Sydney",
+        "status": "Pending",
+        "created_at": "2023-09-30T04:46:15.603Z",
+        "updated_at": "2023-09-29T21:08:13.864Z",
+        "candidate_id": "6d8ce361-6754-49aa-87d7-1c038ccf275c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "5e37d31c-4891-4a68-9a0a-fa06f9d4cae1",
+        "content": "The candidate demonstrated excellent problem-solving skills",
+        "rating": 91501,
+        "created_at": "2023-09-30T03:15:36.797Z",
+        "updated_at": "2023-09-29T21:51:07.731Z",
+        "interview_id": "1b5b1e2d-198f-4aef-b326-d1b3cab1c1b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72ac5f5c-90bb-48dd-9b30-356f8130209c",
+        "content": "The interviewee had a strong understanding of our product",
+        "rating": 93670,
+        "created_at": "2023-09-30T17:10:34.732Z",
+        "updated_at": "2023-09-30T13:45:33.662Z",
+        "interview_id": "f3fc1d01-10a3-4baa-a46c-d8ddd736f194",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae4aabe0-49ed-4a8a-b2e0-a96a82b8bc29",
+        "content": "The candidate's communication skills were impressive",
+        "rating": 15268,
+        "created_at": "2023-09-30T09:11:58.326Z",
+        "updated_at": "2023-09-30T09:38:05.669Z",
+        "interview_id": "f3fc1d01-10a3-4baa-a46c-d8ddd736f194",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f908924-9193-460d-a1fe-83911e711fc0",
+        "content": "The interview went smoothly and the candidate was well-prepared",
+        "rating": 71717,
+        "created_at": "2023-09-30T06:57:58.476Z",
+        "updated_at": "2023-09-30T04:29:31.338Z",
+        "interview_id": "3223fdcb-3ab7-4c03-aece-5d17288b3b5c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a8f2da6-ae25-4b94-bd6a-344fabf939b4",
+        "content": "The candidate's technical knowledge was exceptional",
+        "rating": 92809,
+        "created_at": "2023-09-30T05:55:56.815Z",
+        "updated_at": "2023-09-30T07:01:41.231Z",
+        "interview_id": "1b5b1e2d-198f-4aef-b326-d1b3cab1c1b5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a95019da-2df5-4e37-ae8f-2aa86d99df5b",
+        "email": "Grace4@roq.tech",
+        "firstName": "Neha",
+        "lastName": "Langworth-Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37139023",
+        "tenantId": null
+      },
+      {
+        "reference": "752b3be4-862a-482d-b973-ea43dd21c322",
+        "email": "Jayne.Yost@roq.tech",
+        "firstName": "Katelin",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a1808fc-2041-4b4f-b1ab-f25120da44d7",
+        "email": "Kenneth.Bosco61@roq.tech",
+        "firstName": "Fatima",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46600658",
+        "tenantId": null
+      },
+      {
+        "reference": "74d29a33-3d38-4161-8927-c31b5c4300ac",
+        "email": "Kane_Kassulke9@roq.tech",
+        "firstName": "Jennyfer",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53577073",
+        "tenantId": null
+      },
+      {
+        "reference": "be5254d7-3ebd-4460-9cd3-5f9502bc7a86",
+        "email": "Ricardo.Prosacco30@roq.tech",
+        "firstName": "Maud",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90869545",
+        "tenantId": null
+      }
+    ]
+  }
+]
